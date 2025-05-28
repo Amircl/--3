@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h> // Для работы со строками
+
+int main() {
+
+    char colors[3][10] = {"красный", "синий", "зеленый"};
+    
+    printf("Исходный массив цветов:\n");
+    for (int i = 0; i < 3; i++) {
+        printf("%d: %s\n", i, colors[i]);
+    }
+    
+    return 0;
+}
